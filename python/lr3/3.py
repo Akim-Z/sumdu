@@ -9,4 +9,4 @@ my_list = [word.replace(',', '') for word in my_list]
 # Виведення кожного слова списку, крім "Привіт"
 for word in my_list:
     if word != "Привіт" and word != "":
-        print(word)
+        print(word, end= " ")
